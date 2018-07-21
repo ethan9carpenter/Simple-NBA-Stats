@@ -42,6 +42,7 @@ for line_id, lines in enumerate(table.text.split('\n')):
         player_stats.append( [float(i) for i in lines.split(' ')] )
 
 browser.close()
+print()
 
 db = DataFrame({'player': player_names,
                        'gp': [i[0] for i in player_stats],
