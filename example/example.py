@@ -78,4 +78,6 @@ db = db[['player', 'gp', 'min', 'pts', 'fgm', 'fga', 'fg%', '3pm',
 
 print(db.to_string())
 
+print("DID THIS WORK?")
+
 
